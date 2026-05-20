@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <a href="../Pages/index.html"
+        ><img src="../Multimedia/new_cn_logo.svg" alt="coding_ninjas_logo"
+      /></a>
+      <h1>Create an Acount</h1>
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <br />
+          <div>
+            <label for="fname">Full Name:</label>
+            <input id="fname" type="text" name="fname" required />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+          <br />
+          <div>
+            <label for="usrnme">Username:</label>
+            <input id="usrnme" type="text" name="usrnme" required />
+          </div>
+          <br />
+          <div>
+            <label for="passwd">Password:</label>
+            <input id="passwd" type="password" name="password" required />
+          </div>
+          <br />
+          <div>
+            <label for="usrtype">User Type:</label>
+            <select name="userType" id="userType">
+              <option disabled selected>Select User Type</option>
+              <option value="regular_user">Regular user</option>
+              <option value="weekend_user">Weekend user</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="courseType">Select Course:</label>
+            <select name="courseType" id="courseType">
+              <option value="course1">Course 1 - Web Development</option>
+              <option value="course2">Course 2 - Data Science</option>
+              <option value="course3">Course 3 - Digital Marketing</option>
+              <option value="course4">Course 4 - Android Development</option>
+            </select>
+          </div>
+          <br />
+          <input type="submit" name="register" value="Register" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
